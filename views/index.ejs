@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+<div class="box" id="heading">
+    <h1>
+      <%= heading %>
+    </h1>
+  </div>
+<div class="box">
+  <% for(var i=0; i<items.length; i++ ) { %>
+    <div class="work">
+        <input type="checkbox">
+        <p><%= items[i] %></p>
+    </div>
+    <% } %>
+    <form class="item" action="/submit" method="post">
+        <input type="text" name="newItem" placeholder="Add Task" autocomplete="off">
+        <button type="submit" name="list">+</button>
+    </form>
+</div>
+<%- include("partials/footer.ejs")%>

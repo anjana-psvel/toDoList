@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #461959;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    padding: 12px 30px;
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#CD6688;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content:"";
+    width:0px;
+    height:2px;
+    background:#aed8cc;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.work {
+    background-color: #aed8cc;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7A316F;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+.item{
+  background-color: #aed8cc;
+  border-radius: 5px;
+  position: relative;
+}
+button{
+    border-radius: 50%;
+    margin: 1.3%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color:#aed8cc;
+    border: none;
+    padding: 3px;
+    font-size: 35px;
+    width:45px;
+    background-color: #7A316F;   
+}
+p {
+    color:#7A316F;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    background-color: #aed8cc;
+  }
+h1{
+    color:#CD6688;
+    padding:10px;
+    text-align: center;
+    border: 2.5px solid #CD6688;
+    box-shadow: 10px 10px 5px #7A316F;
+    max-width: 500px;
+}
+
+input[type="checkbox"]{
+    margin:20px;
+    width:20px;
+    height:20px;
+}
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    color: #7A316F;
+  }
+  ::placeholder {
+    color: #7A316F;
+    opacity: 1;
+  }
+  input[type="checkbox"]:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: #7A316F;
+  }
+  
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    
+  }
+  footer p{
+    text-align: center;
+    bottom:0;
+    width:100%;
+    position: fixed;
+    color:#CD6688;
+    background-color: #461959;
+  }
