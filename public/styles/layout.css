@@ -4,7 +4,7 @@
     background-color: #461959;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-nav{
+/* nav{
     display:flex;
     padding: 2% 6%;
     justify-content: space-between;
@@ -14,8 +14,8 @@ nav{
     padding: 12px 30px;
     flex:1;
     text-align: right;
-}
-.nav-links ul li{
+} */
+/* .nav-links ul li{
     list-style:none;
     display:inline-block;
     padding: 8px 12px;
@@ -25,8 +25,8 @@ nav{
     color:#CD6688;
     text-decoration: none;
     font-size: 20px;
-}
-.nav-links ul li::after{
+} */
+/* .nav-links ul li::after{
     content:"";
     width:0px;
     height:2px;
@@ -37,7 +37,7 @@ nav{
 }
 .nav-links ul li:hover::after{
     width:100%;
-}
+} */
 .work {
     background-color: #aed8cc;
     min-height: 70px;
